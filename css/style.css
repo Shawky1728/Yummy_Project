@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box !important;
+}
+
+nav .btn{
+background-color: #CE1211; 
+color: white;
+}
+
+nav li {
+    margin-right: 30px;
+    padding: 0px 5px;
+
+}
+
+*{
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box !important;
+}
+
+nav .btn{
+background-color: #CE1211; 
+color: white;
+}
+
+nav li {
+    margin-right: 30px;
+    padding: 0px 5px;
+
+}
+
+*{
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box !important;
+}
+
+nav .btn{
+background-color: #CE1211 !important; 
+color: white;
+}
+
+nav li {
+    margin-right: 30px;
+    padding: 0px 5px;
+
+}
+
+.nav-link {
+    border-bottom: 2px solid transparent;
+    transition:  0.3s;
+    font-weight: bold;
+}
+
+nav a:hover {
+    border-bottom-color: #CE1211;
+}
