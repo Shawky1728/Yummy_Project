@@ -83,13 +83,25 @@
 .myImage {
     height: 250px;
     background-image: url(../images/stats-bg.jpg);
-    background-attachment: fixed ;
+    background-attachment: fixed;
     background-size: contain;
 
 
 }
 
-.myImage{
-    filter: brightness(.8) ;
+.myImage {
+    filter: brightness(.8);
 }
 
+.menue h2 {
+    font-family: 'Playpen Sans', cursive;
+
+}
+
+.menue h2 span {
+    color: #CE1211;
+}
+
+.myheader{
+     font-family: 'Playpen Sans', cursive;
+}
