@@ -102,6 +102,15 @@
     color: #CE1211;
 }
 
-.myheader{
-     font-family: 'Playpen Sans', cursive;
+.myheader {
+    font-family: 'Playpen Sans', cursive;
+}
+
+.stayWithUs h2 {
+    font-family: 'Playpen Sans', cursive;
+}
+
+.slider{
+    border-left: 3px solid  #CE1211 ;
+    padding: 20px;
 }
