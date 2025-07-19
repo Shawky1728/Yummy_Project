@@ -55,3 +55,27 @@
     padding: 10px;
     border: 5px solid #DDD;
 }
+
+.WhyChooseYummy{
+    background-color: #EEE;
+    
+}
+
+.WhyChooseYummy .div1{
+    background-color: #CE1211;
+    transition-duration: .3s;
+}
+
+.WhyChooseYummy .div1:hover{
+    scale: 1.05;
+}
+
+.WhyChooseYummy .div2 div div div{
+    transition-duration: .3s;
+     border: 2px solid  transparent ;
+}
+
+.WhyChooseYummy .div2 div div div:hover{
+    scale: 1.05;
+    border-color: #CE1211 ;
+}
