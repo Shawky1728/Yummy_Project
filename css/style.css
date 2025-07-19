@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@400;500&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box !important;
 }
 
-nav .btn {
+
+
+.mybtn {
     background-color: #CE1211 !important;
     color: white;
 }
@@ -18,4 +23,24 @@ nav .btn {
 
 .nav-link:hover {
     border-bottom-color: #CE1211;
+}
+
+.home h2 {
+    font-family: 'Playpen Sans', cursive;
+}
+
+@keyframes floatUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.img img {
+  animation: floatUpDown 3s ease-in-out infinite;
 }

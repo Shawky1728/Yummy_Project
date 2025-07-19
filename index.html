@@ -12,9 +12,7 @@
 
 <body>
 
-  <div class="container">
-
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar fixed-top navbar-expand-lg bg-white">
       <div class="container">
         <a class="navbar-brand fs-3 fw-bold" href="#">Yummy</a>
 
@@ -26,28 +24,28 @@
         <div class="collapse navbar-collapse " id="navbarNav">
           <ul class="navbar-nav text-center w-100 justify-content-around ">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Menue</a>
+              <a class="nav-link" href="#menue">Menue</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Event</a>
+              <a class="nav-link" href="#event">Event</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Chefs</a>
+              <a class="nav-link" href="#chefs">Chefs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Gallery</a>
+              <a class="nav-link" href="#gallery">Gallery</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#concat">Contact</a>
             </li>
             <li>
-              <button class=" btn mt-sm-3 mt-lg-0 rounded-pill col-12 col-lg " href="#">book a table</button>
+              <button class="mybtn btn mt-sm-3 mt-lg-0 rounded-pill col-12 col-lg " href="#">book a table</button>
             </li>
 
           </ul>
@@ -55,7 +53,30 @@
       </div>
     </nav>
 
-  </div>
+
+  <section id="home" class="home bg-light p-5 mt-5">
+
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="parg col-12 col-lg-4 d-flex flex-column justify-content-center align-content-center text-center text-lg-start mb-5 mb-lg-0">
+          <h2>Enjoy Your Healthy <br> Delicious Food</h2>
+
+          <p>Sed autem laudantium dolores.  <br> Voluptatem itaque ea consequatur eveniet. Eum quas</p>
+              <div class="d-flex justify-content-around ">
+                <button class="mybtn btn   rounded-pill  " href="#">book a table</button>
+                <button class="btn "> <i class="fa-solid fa-play" style="color: #f41010;"></i> Watch Video</button>
+                
+              </div>
+        </div>
+
+        <div class="img d-flex justify-content-center col-12 col-lg-5">
+          <img class="img-fluid" src="images/menu-item-1.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
 
   <script src="js/bootstrap.bundle.js"></script>
 </body>
