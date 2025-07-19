@@ -82,10 +82,14 @@
 
 .myImage {
     height: 250px;
+    background-image: url(../images/stats-bg.jpg);
+    background-attachment: fixed ;
+    background-size: contain;
 
 
 }
 
-.myImage img {
-    filter: brightness(.5);
+.myImage{
+    filter: brightness(.8) ;
 }
+
