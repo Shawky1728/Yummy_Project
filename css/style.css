@@ -30,17 +30,28 @@
 }
 
 @keyframes floatUpDown {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-15px);
-  }
-  100% {
-    transform: translateY(0);
-  }
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
 
-.img img {
-  animation: floatUpDown 3s ease-in-out infinite;
+.home .img img {
+    animation: floatUpDown 3s ease-in-out infinite;
+}
+
+.about h2{
+    font-family: 'Playpen Sans', cursive;
+}
+
+.Book{
+    padding: 10px;
+    border: 5px solid #DDD;
 }
